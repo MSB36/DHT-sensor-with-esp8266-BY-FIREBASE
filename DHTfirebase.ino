@@ -2,11 +2,11 @@
 #include<FirebaseESP8266.h>
 #include "DHT.h"
 //wifi credentials
-#define WIFI_SSID "MSB"
-#define WIFI_PASSWORD "onetwothreefour"
+#define WIFI_SSID "WIFINAME"
+#define WIFI_PASSWORD "PASSWORD"
  //Firebase credentials
-#define FIREBASE_HOST "https://led-project-440f9-default-rtdb.asia-southeast1.firebasedatabase.app/"   // Without "https://"
-#define FIREBASE_AUTH "AIzaSyDpBuWYpMtX0zwLLFunsi4nrpVksObUpjY"  
+#define FIREBASE_HOST "PROJECT LINK"   // Without "https://"
+#define FIREBASE_AUTH "API KEY"  
 // DHT setup
 #define DHTPIN D4        // GPIO2
 #define DHTTYPE DHT11    // Change to DHT22 if using that
